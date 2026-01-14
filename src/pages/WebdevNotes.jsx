@@ -2,12 +2,12 @@ import React from "react";
 
 const resources = [
 	{
-		name: "Node.js Notes (Markdown)",
-		url: "https://github.com/lavanyamahalle/LEARNING/blob/main/WEBDEV/backend/node.js.md",
+		name: "Node.js Notes",
+		url: "https://github.com/OGSASH08/Placement-Materials/blob/main/WEBDEV/backend/node.js.md",
 	},
 	{
-		name: "REST API Notes (Markdown)",
-		url: "https://github.com/lavanyamahalle/LEARNING/blob/main/WEBDEV/backend/REST.md",
+		name: "REST API Notes",
+		url: "https://github.com/OGSASH08/Placement-Materials/blob/main/WEBDEV/backend/REST.md",
 	},
 ];
 

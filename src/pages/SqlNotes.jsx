@@ -2,26 +2,25 @@ import React from 'react';
 
 const resources = [
   {
-    name: "SQL Notes (PDF)",
-    url: "https://github.com/lavanyamahalle/LEARNING/blob/main/SQL/sql_notes_1742246152.pdf"
+    name: "SQL Notes PDF",
+    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/SQL/sql_notes_1742246152.pdf"
   },
   {
-    name: "SQL Interview Questions (Markdown)",
-    url: "https://github.com/lavanyamahalle/LEARNING/blob/main/SQL/InterviewQues.MD"
+    name: "SQL Interview Questions",
+    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/SQL/InterviewQues.MD"
   },
   {
-    name: "SQL Learning Notes (Markdown)",
-    url: "https://github.com/lavanyamahalle/LEARNING/blob/main/SQL/Learning.md"
+    name: "SQL Learning Notes",
+    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/SQL/Learning.md"
   },
   {
-    name: "SQL Revision Table (Markdown)",
-    url: "https://github.com/lavanyamahalle/LEARNING/blob/main/SQL/Revision(table).MD"
+    name: "SQL Revision Table",
+    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/SQL/Revision(table).MD"
   },
   {
-    name: "SQL Revision Questions (Markdown)",
-    url: "https://github.com/lavanyamahalle/LEARNING/blob/main/SQL/revisionQues.MD"
-  },
- 
+    name: "SQL Revision Questions",
+    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/SQL/revisionQues.MD"
+  }
 ];
 
 const SqlNotes = () => (
