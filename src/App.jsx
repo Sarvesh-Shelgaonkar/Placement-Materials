@@ -18,8 +18,9 @@ const App = () => {
         <nav className="bg-white dark:bg-gray-800 shadow-sm">
           <div className="container mx-auto px-4">
             <div className="flex justify-between items-center h-16">
-              <Link to="/" className="text-xl font-bold text-primary-600 dark:text-primary-400">
-               TOP 100 DSA Problems
+              <Link to="/" className="flex items-center gap-2 text-xl font-bold text-primary-600 dark:text-primary-400">
+                <span className="text-2xl">🎯</span>
+                <span>DSA Mastery</span>
               </Link>
             
               <div className="flex space-x-4">
