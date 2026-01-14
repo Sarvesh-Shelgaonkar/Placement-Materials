@@ -17,7 +17,7 @@
 cd learning-resources
 
 # Add remote (Create repo on GitHub first!)
-git remote add origin https://github.com/OGSASH08/Placement-Materials.git
+git remote add origin https://github.com/Sarvesh-Shelgaonkar/Placement-Materials.git
 
 # Push to GitHub
 git branch -M main
@@ -50,7 +50,7 @@ git add .
 git commit -m "Clean DSA tracker ready for deployment - Performance optimized"
 
 # Add your DSA-OWN repo
-git remote add origin https://github.com/OGSASH08/DSA-OWN.git
+git remote add origin https://github.com/Sarvesh-Shelgaonkar/DSA-OWN.git
 
 # Push to GitHub
 git branch -M main
@@ -147,7 +147,7 @@ Placement-Materials/
 
 Your live URLs will be:
 - **DSA Tracker**: `https://dsa-tracker-xxxx.onrender.com`
-- **Learning Materials**: `https://github.com/OGSASH08/Placement-Materials`
+- **Learning Materials**: `https://github.com/Sarvesh-Shelgaonkar/Placement-Materials`
 
 ---
 

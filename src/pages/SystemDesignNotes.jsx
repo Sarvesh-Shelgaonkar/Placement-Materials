@@ -3,15 +3,15 @@ import React from 'react';
 const resources = [
   {
     name: "System Design Notes",
-    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/SYSTEMDESIGN/README.md"
+    url: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/SYSTEMDESIGN/README.md"
   },
   {
     name: "My Learning Notes",
-    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/SYSTEMDESIGN/MYLEARNING.MD"
+    url: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/SYSTEMDESIGN/MYLEARNING.MD"
   },
   {
     name: "System Design PDF",
-    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/SYSTEMDESIGN/system%20design.pdf"
+    url: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/SYSTEMDESIGN/system%20design.pdf"
   }
 ];
 

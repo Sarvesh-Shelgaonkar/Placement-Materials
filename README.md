@@ -45,7 +45,7 @@ npm run build
    git init
    git add .
    git commit -m "Initial commit"
-   git remote add origin https://github.com/OGSASH08/DSA-OWN.git
+   git remote add origin https://github.com/Sarvesh-Shelgaonkar/DSA-OWN.git
    git branch -M main
    git push -u origin main
    ```

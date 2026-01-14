@@ -3,11 +3,11 @@ import React from "react";
 const resources = [
 	{
 		name: "Node.js Notes",
-		url: "https://github.com/OGSASH08/Placement-Materials/blob/main/WEBDEV/backend/node.js.md",
+		url: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/WEBDEV/backend/node.js.md",
 	},
 	{
 		name: "REST API Notes",
-		url: "https://github.com/OGSASH08/Placement-Materials/blob/main/WEBDEV/backend/REST.md",
+		url: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/WEBDEV/backend/REST.md",
 	},
 ];
 

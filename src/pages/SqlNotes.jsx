@@ -3,23 +3,23 @@ import React from 'react';
 const resources = [
   {
     name: "SQL Notes PDF",
-    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/SQL/sql_notes_1742246152.pdf"
+    url: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/SQL/sql_notes_1742246152.pdf"
   },
   {
     name: "SQL Interview Questions",
-    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/SQL/InterviewQues.MD"
+    url: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/SQL/InterviewQues.MD"
   },
   {
     name: "SQL Learning Notes",
-    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/SQL/Learning.md"
+    url: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/SQL/Learning.md"
   },
   {
     name: "SQL Revision Table",
-    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/SQL/Revision(table).MD"
+    url: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/SQL/Revision(table).MD"
   },
   {
     name: "SQL Revision Questions",
-    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/SQL/revisionQues.MD"
+    url: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/SQL/revisionQues.MD"
   }
 ];
 

@@ -3,35 +3,35 @@ import React from 'react';
 const resources = [
   {
     name: "150 DSA Questions PDF",
-    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/DSA/150-DSA-questions%202.pdf"
+    url: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/DSA/150-DSA-questions%202.pdf"
   },
   {
     name: "Handwritten Notes PDF",
-    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/DSA/Data_Structure_Handwritten_Notes_%EF%BF%BD_1735369811.pdf"
+    url: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/DSA/Data_Structure_Handwritten_Notes_%EF%BF%BD_1735369811.pdf"
   },
   {
     name: "DSA Questions PDF",
-    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/DSA/DSA_1741283310.pdf"
+    url: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/DSA/DSA_1741283310.pdf"
   },
   {
     name: "DSA README & Notes",
-    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/DSA/README.md"
+    url: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/DSA/README.md"
   },
   {
     name: "Topic-wise Questions & Theory",
-    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/DSA/TOPIC%20WISE%20QUE%20AND%20NOTES"
+    url: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/DSA/TOPIC%20WISE%20QUE%20AND%20NOTES"
   },
   {
     name: "Array Problems",
-    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/DSA/TOPIC%20WISE%20QUE%20AND%20NOTES/array.md"
+    url: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/DSA/TOPIC%20WISE%20QUE%20AND%20NOTES/array.md"
   },
   {
     name: "Linked List Problems",
-    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/DSA/TOPIC%20WISE%20QUE%20AND%20NOTES/linkedlist.md"
+    url: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/DSA/TOPIC%20WISE%20QUE%20AND%20NOTES/linkedlist.md"
   },
   {
     name: "DP Questions & Theory",
-    url: "https://github.com/OGSASH08/Placement-Materials/blob/main/DSA/TOPIC%20WISE%20QUE%20AND%20NOTES/DP_QUES%20AND%20THOERY.md"
+    url: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/DSA/TOPIC%20WISE%20QUE%20AND%20NOTES/DP_QUES%20AND%20THOERY.md"
   }
 ];
 

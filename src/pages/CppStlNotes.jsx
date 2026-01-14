@@ -11,7 +11,7 @@ const CppStlNotes = () => (
         <li className="flex items-center justify-between border-b pb-2">
           <span className="font-medium text-base text-gray-800 dark:text-gray-100">C++ STL Complete Guide</span>
           <a
-            href="https://github.com/OGSASH08/Placement-Materials/blob/main/CPP-STL-libraries/README.md"
+            href="https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/CPP-STL-libraries/README.md"
             target="_blank"
             rel="noopener noreferrer"
             className="text-blue-600 hover:underline text-sm font-semibold"

@@ -3,31 +3,31 @@ import React from "react";
 const subjects = [
 	{
 		name: "Artificial Intelligence (AI)",
-		notesUrl: "https://github.com/OGSASH08/Placement-Materials/blob/main/CORESUB/AI/NOTES.MD",
+		notesUrl: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/CORESUB/AI/NOTES.MD",
 	},
 	{
 		name: "Cloud Computing (CC)",
-		notesUrl: "https://github.com/OGSASH08/Placement-Materials/blob/main/CORESUB/CC/NOTES.MD",
+		notesUrl: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/CORESUB/CC/NOTES.MD",
 	},
 	{
 		name: "Computer Networks & Security (CNS)",
-		notesUrl: "https://github.com/OGSASH08/Placement-Materials/blob/main/CORESUB/CNS/NOTES.MD",
+		notesUrl: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/CORESUB/CNS/NOTES.MD",
 	},
 	{
 		name: "DBMS",
-		notesUrl: "https://github.com/OGSASH08/Placement-Materials/blob/main/CORESUB/DBMS/NOTES.MD",
+		notesUrl: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/CORESUB/DBMS/NOTES.MD",
 	},
 	{
 		name: "Data Science & Big Data Analytics (DSBDA)",
-		notesUrl: "https://github.com/OGSASH08/Placement-Materials/blob/main/CORESUB/DSBDA/NOTES.MD",
+		notesUrl: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/CORESUB/DSBDA/NOTES.MD",
 	},
 	{
 		name: "Object Oriented Programming (OOP)",
-		notesUrl: "https://github.com/OGSASH08/Placement-Materials/blob/main/CORESUB/OOP/NOTES.MD",
+		notesUrl: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/CORESUB/OOP/NOTES.MD",
 	},
 	{
 		name: "Operating Systems (OS)",
-		notesUrl: "https://github.com/OGSASH08/Placement-Materials/blob/main/CORESUB/OS/NOTES.MD",
+		notesUrl: "https://github.com/Sarvesh-Shelgaonkar/Placement-Materials/blob/main/CORESUB/OS/NOTES.MD",
 	},
 ];
 
