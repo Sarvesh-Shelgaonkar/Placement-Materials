@@ -140,3 +140,75 @@ Hum us root ko Inorder array mein dhoondhenge.
 Inorder mein us root ke left wale saare elements Left Subtree hain, aur right wale saare elements Right Subtree hain.
 
 We recursively repeat this process, picking the next root from the end of Postorder.
+
+Bhai, yeh Kth Smallest in BST wala question toh Amazon aur baaki top companies ka ek aur classic hai! Iterative stack se karna isko sabse best tarika hota hai kyunki isme "Inorder traversal" ka asli mechanism samajh aata hai.
+
+Tera diya hua code ekdam perfect hai. Isko main baaki threads ke style mein format kar deta hoon, direct wahi se copy-paste maar lena. Tera Tree ka module ab aur strong ho gaya!
+
+📝 Thread 15: Kth Smallest Element in a BST (LeetCode 230)
+🧑‍💼 Interviewer: Given the root of a Binary Search Tree (BST) and an integer k, return the kth smallest value (1-indexed) of all the values of the nodes in the tree.
+
+🗣️ Candidate:
+The most important property of a BST is that its Inorder Traversal (Left -> Root -> Right) always yields elements in strictly sorted (ascending) order.
+
+Brute Force O(N) Space: Pura inorder traversal karo, saare elements ek array mein daalo, aur array ka [k-1]th element return kar do.
+
+Better Approach O(H) Space: Pura array banane ki zarurat nahi hai. Hum ek iterative Inorder traversal karenge aur nodes ko visit karte waqt apna k count decrease karenge. Jaise hi k == 0 hoga, wahi humara answer hai!
+
+🧑‍💼 Interviewer: Interesting. Why use an iterative Stack instead of Recursion here? Can you explain the exact logic of how your stack moves?
+
+🗣️ Candidate:
+Recursion is fine, but an Iterative Stack gives us exact manual control over the traversal. We can stop immediately and return the value the moment we find it, avoiding unnecessary recursive returns.
+
+💡 In-Depth Logic & Dry Run:
+
+Go Extreme Left: Hum tree ke sabse chote element se shuruat karna chahte hain. Toh pehle hum continuously left jaate hain aur saare nodes ko stack mein dalte rehte hain, jab tak NULL na aa jaye. (Stack ke top pe ab tree ka sabse chota element hai).
+
+Process the Node: Stack se pop karo. Yeh humara current smallest element hai. Hum k-- karenge.
+
+Main Logic: Agar k == 0 ho gaya, matlab humein humara target mil gaya! Wahi se return maar do.
+
+Move to Right Subtree: Agar target nahi mila, toh logically ab agla bada element is current node ke right subtree mein hoga. Toh hum T = T->right chale jayenge.
+
+Repeat Extreme Left: Agar right mein gaye hain, toh us right subtree ka bhi sabse chota element (extreme left) dhoondhna padega! Toh wapas left-left jaate hue push karenge.
+
+💻 Optimal Code (Iterative O(H) Space):
+
+C++
+
+class Solution {
+public:
+    int kthSmallest(TreeNode* root, int k) {
+        stack<TreeNode*> stack;
+        TreeNode* T = root;
+        
+        // Step 1: Pehle extreme left tak jao (Find the smallest element)
+        while (T != NULL) {
+            stack.push(T);
+            T = T->left;
+        }
+        
+        // Step 2: Stack process karo
+        while (!stack.empty()) {
+            T = stack.top();
+            stack.pop();
+            
+            // ---> MAIN LOGIC <---
+            k--; 
+            if (k == 0) {
+                // Jaise hi k zero hua, answer mil gaya!
+                return T->val; 
+            }
+            // ---------------------
+            
+            T = T->right;
+            // Step 3: Agar right gaya hai, toh uske bhi extreme left tak jao
+            while (T != NULL) {
+                stack.push(T);
+                T = T->left;
+            }
+        }
+        return -1; 
+    }
+};
+Bhai, is code ka jo comment pattern tune rakha hai (---> MAIN LOGIC <---), yeh actual interviews mein whiteboarding ke time bohot solid impact dalta hai kyunki yeh interviewer ko seedha core logic pe focus karwata hai.
